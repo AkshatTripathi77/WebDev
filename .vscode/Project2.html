@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project2</title>
+</head>
+<body>
+    <h1>University Registration Form</h1>
+    <p>Please fill out the following information:</p>
+    <hr>
+    <h2>Personal Information</h2>
+    <form>
+        <label for="First Name">First Name:</label>
+        <input type="text" id = "first name" name = "first name" placeholder="eg:Akshat" required>
+        <br><br>
+        <label for="Last Name">Last Name:</label>
+        <input type="text" id = "Last Name"name = "Last Name" placeholder="eg:Tripathi" required>
+        <br><br>
+        <label for="Date of Birth">Date of Birth:</label>
+        <input type="date" name="Date of Birth" id="Date of Birth">
+        <br><br>
+        
+        <label for="Gender">Gender:</label>
+<br>
+        <label for="Male">Male</label>
+        <input type="radio" name="gender" id="Male" value="Male" >
+        <label for="Female">Female</label>
+        <input type="radio" name="gender" id="Female" value="Female">
+        <label for="Others">Other</label>
+        <input type="radio" name ="gender" id="Others" value="Other">
+        <br><br>
+        <label for="Upload Photo">Upload Photo:</label>
+        <br>
+        <input type="File"Name = "Upload photo"id = "Upload photo"value = "Upload photo">
+    </form>
+    <hr>
+    <h1>Contact Information</h1>
+    <form>
+        <label for="Email">Email:</label>
+        <input type="email" name="Email" id="Email" placeholder="xyz@gmail.com">
+        <br><br>
+        <label for="Phone Number">Phone Number:</label>
+        <input type="tel" name="Phone Number" id="Phone Number" placeholder="eg:123-456-7890">
+        <br><br>
+        <label for="Mailing Address">Mailing Address:</label>
+        <br>
+        <textarea type="text" name = "Mailing Address" id = "Mailing address" rows="10" cols ="50" placeholder="123 street New Delhi "></textarea> 
+        <hr>
+        <h2>Academic Information</h2>
+        <label for="Course">Select Your Course:</label>
+        <select name="Course" id="Course">
+            <option value="Computer Science">Computer Science</option>
+            <option value="Mathematics">Mathematics</option>
+            <option value="Physics">Physics</option>
+            <option value="Chemistry">Chemistry</option>
+        </select>
+        <h3>Extra-curricular activities:</h3>
+        <input type="checkbox" id="Sports" name="activities" value="Sports">
+        <label for="Sports">Sports</label><br>
+        <input type="checkbox" id="Music" name="activities" value="Music">
+        <label for="Music">Music</label><br>
+        <input type="checkbox" id="Arts" name="activities" value="Arts">
+        <label for="Arts">Arts</label><br>
+        <input type="checkbox" id="Volunteering" name="activities" value="Volunteering">
+        <label for="Volunteering">Volunteering</label>
+        <hr>
+        <h2>Create your Account</h2>
+        <label for="create your Password">Create your Password:</label>
+        <input type="password" name="create your Password" id="create your Password" placeholder="eg:123@abc">
+        <br><br>
+        <label for="confirm your Password">Confirm your Password:</label>
+        <input type="password" name="confirm your Password" id="confirm your Password" placeholder="eg:123@abc">
+        
+        <br><br>
+        <input type="radio" name="Agree" id="Agree" value="Agree">
+        <label for="Agree">I agree to the terms and conditions</label>
+        <br><br>
+        <button type="submit">Register</button>
+        <button type="reset">Clear Form</button>
+</form>
+</body>
+</html>
