@@ -1,0 +1,9 @@
+h1{
+    font-size: smaller;
+    text-align: center;
+}
+p{
+    font-size: larger;
+    text-align: justify;
+    background-color: red;
+}
